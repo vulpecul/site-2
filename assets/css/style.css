@@ -2,10 +2,6 @@
   font-family: "Poppins";
   src: url("../fonts/Poppins-Regular.ttf") format("ttf");
   font-style: normal;
-  font-weight: 900;
-  font-weight: 700;
-  font-weight: 600;
-  font-weight: 500;
   font-weight: 400;
 }
 body{
@@ -496,6 +492,20 @@ body{
     font-size: 14px;
     line-height: 20px;
     color: #6F7278;
+}
+
+/*FRAME*/
+.frame{
+    position: absolute;
+    height: 600.3px;
+    left: 0%;
+    right: 0%;
+    top: 2213.52px;
+    background:  url('../img/fon3.png') no-repeat center center / cover;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
 }
 
 
