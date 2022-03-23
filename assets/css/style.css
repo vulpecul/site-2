@@ -445,8 +445,7 @@ body{
 }
 /*МЕСТА*/
 .mesto{
-    margin-top: 2814px;
-    height: 1204px;
+    height: 1285px;
     padding: 100px 0;
     background-color: #FAFAFC;
 }
@@ -457,6 +456,7 @@ body{
 .text_mesto{
     text-align: left;
     height: 135px;
+    margin-left: 20px;
 }
 .text_current{
     height: 20px;
@@ -493,16 +493,19 @@ body{
     display: flex;
     align-items: center;
     text-align: center;
+    margin-top: 60px;
 }
 .info_photo{
     width: 100px;
-    margin-left: 0px;
-    margin-top: -30px; 
+    margin-top: -30px;
 }
 .block_house{
     height: 118px;
-    margin-left: 0px;
-    margin-top: 266.39px;    
+    margin-left: -100px;
+    width: 379px;
+    background: #FFFF;
+    margin-top: 351px;
+    border-radius: 10px; 
 }
 .text_house{
     font-family: 'Poppins';
@@ -513,7 +516,9 @@ body{
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #6F7278;    
+    color: #6F7278;
+    margin-left: -20px;
+    margin-top: 20px;
 }
 .info_text_home{
     font-family: 'Poppins';
@@ -523,8 +528,346 @@ body{
     line-height: 28px;
     text-align: center;
     color: #45525B;
-    margin-top: 10px;    
+    margin-top: 0px;
+    margin-left: -20px;
 }
+.img__mesto__text{
+    display: flex;
+}
+.mesto__img__text{
+    display: flex;
+    margin-top: 10px;
+}
+.text__mesto1{
+    margin-left: 10px;
+}
+.img__mesto{
+    margin-left: 20px;
+}
+.block_house1{
+    height: 118px;
+    margin-left: -100px;
+    width: 379px;
+    background: #FFFF;
+    margin-top: 351px;
+    border-radius: 10px;
+}
+.info_mesto1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.mesto__info{
+    display: flex;
+    margin-top: -100px;
+    margin-left: 20px;
+}
+.text__mesto2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;  
+    color: #45525B;
+}
+.text__img{
+    display: flex;
+    margin-top: 620px;
+    margin-left: -680px;
+}
+
+/*PEOPLE*/
+.people{
+    padding: 100px 0;
+    margin-top: 0px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    height: 300px;
+}
+.text_people{
+    height: 284.09px;
+    margin-left: 0%;
+    right: 68.49%;
+    margin-top: 0px;
+}
+.text_ourpeople{
+    height: 20px;
+    margin-left: 0%;
+    right: 71.47%;
+    margin-top: -0.98px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FF8A63;
+}
+.text_meet{
+    height: 130px;
+    margin-left: 0%;
+    margin-top: -3px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #45525B;
+}
+.text_morbipeople{
+    height: 87px;
+    margin-left: 0%;
+    margin-top: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #6F7278;
+}
+.text__view{
+    height: 21px;
+    margin-left: 0%;
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #45525B;
+}
+.people__img{
+    margin-left: 120px;
+    margin-top: -19.1px;
+}
+.ava_info1{
+    height: 80px;
+    display: flex;
+}
+.about_ava{
+    height: 80px;
+}
+    .text_ava{
+    height: 38px;
+    margin-top: 18px;
+    margin-left: 10px;
+    }
+.text_name{
+    height: 23px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #45525B;
+}
+.text_who{
+    height: 17px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6F7278;
+}
+.ava_info2{
+    height: 80px;
+    display: flex;
+    margin-left: 150px;
+}
+.about_ava{
+    height: 80px;
+}
+.text_ava{
+    height: 38px;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+.text_name{
+    height: 23px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #45525B;
+}
+.text_who{
+    height: 17px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6F7278;
+}
+.ava__people{
+    display: flex;
+    margin-left: 450px;
+    margin-top: -270px;
+}
+.ava__people1{
+    display: flex;
+    margin-left: 450px;
+    margin-top: 10px;
+}
+.ava_info3{
+    height: 80px;
+    display: flex;
+    margin-left: 211px;
+}
+.ava_info4{
+    height: 80px;
+    display: flex;
+    margin-left: 180px;
+}
+
+/*Newsroom*/
+.newsroom{
+    height: 715px;
+    padding: 100px 0;
+    background: #FAFAFC;    
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    height: 300px;
+}
+.zagol_newsroom{
+    margin-left: 25px;
+    text-align: center;
+    margin-top: 0px;
+}
+.text_new{
+    width: 102px;
+    margin-left: 530px;
+    margin-top: -1.08px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FF8A63;
+}
+.text_writing{
+    width: 354px;
+    height: 44px;
+    margin-left: 405px;
+    margin-top: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #45525B;    
+}
+.mesto_newsroom{
+    display: flex;
+    margin-top: -100px;
+    margin-left: -25px;
+}
+.info_newsroom{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 30px;    
+}
+.info_newsroom_2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 30px;   
+}
+.newsroom_photo{
+    width: 100px;
+    margin-top: -30px;    
+}
+.text_newsroom{
+    height: 165px;
+    margin-left: -100px;
+    width: 376px;
+    background: #FFFF;
+    margin-top: 340px;
+    border-radius: 10px;   
+}
+.text_newsroom_2{
+    height: 165px;
+    margin-left: -100px;
+    width: 376px;
+    background: #FFFF;
+    margin-top: 340px;
+    border-radius: 10px;   
+}
+.text_press{
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 25px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FF8A63;    
+}
+.text_market{
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #45525B;    
+}
+.text_data{
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #6F7278;    
+}
+.text__img_newsroom{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 535px;       
+}
+.text__newsroom_2{
+    height: 21px;
+    margin-left: 0px;
+    margin-top: -0.39px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #45525B;    
+}
+
+
+
+
 
 
 
