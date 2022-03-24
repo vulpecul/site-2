@@ -20,6 +20,9 @@ body{
     height: 66px;
     width: 1200px;
     margin: 0 auto;
+    position: fixed;
+    z-index: 100px;
+    width: 100%;
 }
 .container {
     width: 1200px;
@@ -404,6 +407,7 @@ body{
     margin: 0 auto;
     height: 700px;
 }
+
 .text__frame{
     font-family: 'Poppins';
     font-style: normal;
