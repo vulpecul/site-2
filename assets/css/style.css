@@ -407,7 +407,6 @@ body{
     margin: 0 auto;
     height: 700px;
 }
-
 .text__frame{
     font-family: 'Poppins';
     font-style: normal;
@@ -434,23 +433,27 @@ body{
     font-size: 15px;
     line-height: 21px;
     color: #45525B;
+    margin-top: 10px;
 }
-.line__frame{
-    margin-top: 8px;
-}
-.frame__img{
+.img_strelka{
     margin-left: 95px;
-    margin-top: -18.1px;
+    margin-top: -20px;
+}
+.frame_wrapper{
+    height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 .text__img__frame{
-    margin-left: 997px;
-    padding-top: 300px;
-    margin-right: -50px;
-    display: none;
+    width: 300px;
+    align-items: center;
+    visibility: hidden;
 }
-    .text__img__frame:hover{
-    display: block;
+.frame_wrapper:hover>.text__img__frame{
+    visibility: visible;
 }
+
 /*МЕСТА*/
 .mesto{
     height: 1285px;
